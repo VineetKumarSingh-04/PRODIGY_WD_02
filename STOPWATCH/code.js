@@ -43,7 +43,6 @@ function resetStopwatch() {
     display.textContent = "00:00:00:00";
 }
 
-// Add event listeners
 startButton.addEventListener('click', startStopwatch);
 stopButton.addEventListener('click', stopStopwatch);
 resetButton.addEventListener('click', resetStopwatch);
